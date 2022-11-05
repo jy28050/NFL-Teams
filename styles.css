@@ -1,0 +1,100 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(243, 235, 235);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.team-container {
+    width: 100%;
+    height: auto;   
+}
+
+
+.text {
+    color: rgb(42, 40, 40);
+    margin-top: 60px;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.row {
+    width: 60%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-items: center;
+    justify-content: center;
+}
+
+
+.profile-card {
+    background-color: lightgray;
+    width: 320px;
+    height: 350px;
+    margin: 20px 10px 10px 20px;
+    border: solid 2px black;
+    box-shadow: 1px 1px 1px 1px rgb(38, 37, 37);
+}
+
+
+.card-content {
+    padding: 10px;   
+}
+
+
+img {
+    width: 120px;
+    height: 120px;   
+}
+
+
+.profile-image {
+    text-align: center;
+}
+
+
+.description h2 {
+    color: rgb(12, 10, 10);
+    font-size: 22px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+
+.description h2:hover{
+    color:rgb(149, 17, 17);   
+}
+
+
+.description ul {
+    font-size: 16px;
+    line-height: 1.5em;
+    margin-top: -10px;
+    color: black;
+    padding-bottom: 20px;
+}
+
+
+
+button {
+    border-radius: 5px;
+    background-color: lightskyblue;
+    border: solid 1px black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding:  5px 5px;
+    margin-top: 5px;
+}
+
+
+button:hover {
+    color:yellow;
+}
